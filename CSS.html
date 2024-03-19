@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Praktikum CSS</title>
+    <style>
+        header {
+            width: 80%;
+            height: 25%;
+            background-color: rgba(250, 235, 215, 0.607);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5%;
+            padding: 10%;
+            border-radius: 3%;
+            box-shadow: 0 0 5px;
+        }
+        body {
+            margin: 10%;
+            padding: 10%;
+            background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/ss_4292ba4d468883bb13c619330229047f9ab197f7.jpg?t=1605151411);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: 5px solid blanchedalmond;
+            border-radius: 3%;
+            box-shadow: 0 0 5px;
+
+        }
+        .container {
+            width: 80%;
+            height: 25%;
+            background-color: rgba(250, 235, 215, 0.607);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5%;
+            padding: 10%;
+            border-radius: 3%;
+            box-shadow: 0 0 5px;
+        }
+        p {
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-decoration-color: rgb(138, 3, 249);
+            text-decoration-thickness: 3px;
+            text-decoration-style: dashed;
+            color: rgb(134, 0, 0);
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            font-size: 150%;
+            font-weight: 500;
+            display: inline-flex;
+        }
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        background-color: rgba(240, 248, 255, 0.5);
+        }
+        .dropdown .dropbtn {
+        background-color: none; /* Menghapus latar belakang */
+        border: none; /* Jika Anda ingin menghapus border */
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f900;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+
+        .dropdown-content a:hover {
+        background-color: #dddddd00;
+        }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Main Menu</a>
+                    <a href="tentang.html">About us</a>
+                    <a href="#">Project</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <p>Ini adalah teks untuk mencoba CSS (Cascading Style Sheet)</p>
+        </section>
+    </div>
+</body>
+</html>
